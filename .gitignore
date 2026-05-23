@@ -1,0 +1,57 @@
+# Session tokens and authentication credentials
+suno_session.json
+suno_token.json
+*_session.json
+*_token.json
+*_cookies.json
+cookies.json
+
+# Cookie extraction scripts (may contain hardcoded paths/secrets)
+extract_chrome_cookies.py
+
+# Raw catalog data that may contain PII or API responses
+suno_catalog_raw.json
+suno_songs_page1.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Chat exports (may contain sensitive conversation data)
+chat-export-*.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Node modules
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Playwright state (may contain auth)
+.playwright-mcp/
+playwright-state.json
+.gstack/
+
+# Git worktrees
+.worktrees/
