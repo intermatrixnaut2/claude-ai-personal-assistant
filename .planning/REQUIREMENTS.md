@@ -93,7 +93,6 @@
 | BRAND-04 | Phase 1 | Pending |
 | LORE-01 | Phase 1 | Pending |
 | PROD-01 | Phase 1 | Pending |
-| PROD-02 | Phase 2 | Pending |
 | CONT-01 | Phase 2 | Pending |
 | CONT-02 | Phase 2 | Pending |
 | CONT-03 | Phase 2 | Pending |
@@ -104,17 +103,18 @@
 | FUNL-03 | Phase 3 | Pending |
 | FUNL-04 | Phase 3 | Pending |
 | PROD-04 | Phase 3 | Pending |
+| PROD-02 | Phase 4 | Pending |
 | PROD-03 | Phase 4 | Pending |
 | LORE-03 | Phase 4 | Pending |
 | LORE-04 | Phase 4 | Pending |
-| REV-01 | Phase 5 | Pending |
 | REV-02 | Phase 4 | Pending |
+| REV-01 | Phase 5 | Pending |
 
 **Coverage:**
 - v1 requirements: 22 total
 - Mapped to phases: 22
-- Unmapped: 0 ✓
+- Unmapped: 0 (validated against ROADMAP.md 2026-05-22)
 
 ---
 *Requirements defined: 2026-05-22*
-*Last updated: 2026-05-22 after initial definition*
+*Last updated: 2026-05-22 — traceability validated against ROADMAP.md*
