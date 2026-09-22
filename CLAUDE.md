@@ -18,6 +18,22 @@ Agent mode: {precision | clarity | authority | adaptive}
 7. {Operate}: mode=continuous, against=baseline
 8. {Learn(outcomes)}: update → return to step 1
 
+## UE5 Editor Gate — MANDATORY CHECK BEFORE ANY IN-EDITOR WORK
+
+**The MCP backend channel (`127.0.0.1:8000/mcp`) ONLY exists while Unreal Editor is running. If the editor is closed, the channel is dead and writing MCP scripts is wasted work.**
+
+Before writing or executing ANY in-editor automation (Blueprint creation, GE reparenting, DataTable ops, asset saves, etc.), run this check first:
+
+```bash
+pgrep -x UnrealEditor > /dev/null && echo "EDITOR UP — MCP live" || echo "EDITOR DOWN — stop, do not write MCP code"
+```
+
+**Rules:**
+- `EDITOR UP` → proceed with MCP scripts via `127.0.0.1:8000/mcp`
+- `EDITOR DOWN` → STOP. Tell the user the editor is closed and ask them to open it before continuing. Do not write any MCP/in-editor code. Do not ask the user to run scripts.
+- Never assume the editor is running. Always check.
+- If the check itself fails (command not found, no output), treat as `EDITOR DOWN`.
+
 ## Browser automation
 
 **Always use `agent-browser` (installed at `/Users/intermatrixnaut/.npm-global/bin/agent-browser`) for ALL browser and web access tasks. Never use Chrome directly, Playwright, Puppeteer, or any other browser tool.**
@@ -68,7 +84,8 @@ Key routing rules:
 - Ship/deploy/PR → invoke /ship or /land-and-deploy
 - Save progress → invoke /context-save
 - Resume context → invoke /context-restore
-- Browser/web/scrape tasks → invoke /agent-browser
+- Web scraping, content extraction, fetch a URL, research from a site → invoke /scrapegraph
+- Browser/web automation (clicks, login flows, visual QA) → invoke /agent-browser
 - Research what people say about a topic (Reddit, X, YouTube, HN, etc.) → invoke /last30days
 - Art style replication / mezzo style / generate image prompts in my style → invoke /mezzo-style
 - Jazz music creation, jazz SUNO prompts, jazz composition, Phrygian/altered jazz → invoke /jazz
@@ -79,6 +96,8 @@ Key routing rules:
 - Identity audit, self-sabotage, habit failure, reinvention, Human OS audit → invoke /upgrade-who-you-are
 - Human body models (SMPL, SMPL-X, MHR, Anny), parametric body rigs, body mesh generation, base mesh for character sculpting, motion retargeting, body shape PCA → invoke /soma-x
 - ZBrush base mesh from body model, exporting body OBJ for ZBrush, SOMA Blender add-on, SOMA Maya plugin → invoke /soma-x
+- Setup/status for STARE UE5 MCP server, register mcp__stare-ue5__* tools, verify RC connection → invoke /stare-ue5-mcp
+- UE5 RC direct tool calls (search_assets, set_property, call_function, run_python_in_editor, search_source_code) — these are available as mcp__stare-ue5__* tools once the server is running
 
 ## Session Logging (Obsidian Memory Vault)
 
@@ -123,6 +142,13 @@ tags: [session, auto-logged]
 **After writing the file**, confirm with: `Session logged at ClaudeSyncVault/Sessions/[filename]`
 
 The vault is at `~/ClaudeSyncVault/`. Sessions go in `Sessions/`. Do not use the old `Pallas of Hyperion` vault for session notes.
+
+## StreamingLLM
+- **Path**: `/Users/intermatrixnaut/Documents/Claude AI personal Assistant/streaming-llm-main`
+- **Venv**: `.venv/bin/python` inside that path (Python 3.11, torch 2.13, transformers 5.15)
+- **Import**: `from streaming_llm.enable_streaming_llm import enable_streaming_llm` / `from streaming_llm.kv_cache import StartRecentKVCache`
+- **Purpose**: Infinite-context LLM inference via attention sinks — keeps first N + last N KV states, drops middle. No fine-tuning. M1 MPS-capable (no CUDA needed).
+- **Run examples**: activate venv first: `source [path]/.venv/bin/activate`
 
 ## Loop stop rules
 
