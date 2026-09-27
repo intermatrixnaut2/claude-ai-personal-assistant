@@ -20,7 +20,7 @@ Agent mode: {precision | clarity | authority | adaptive}
 
 ## UE5 Editor Gate — MANDATORY CHECK BEFORE ANY IN-EDITOR WORK
 
-**The MCP backend channel (`127.0.0.1:8000/mcp`) ONLY exists while Unreal Editor is running. If the editor is closed, the channel is dead and writing MCP scripts is wasted work.**
+**The `stare-ue5` MCP server runs over stdio (spawned by Claude Code automatically). It talks to UE5 Remote Control on a dynamic port written by Aura to `~/Library/Application Support/Aura/.Aura/rc_server_port.txt` (currently 30011, fallback 30010). There is no port 8000 — that was wrong. The RC channel only exists while Unreal Editor is running.**
 
 Before writing or executing ANY in-editor automation (Blueprint creation, GE reparenting, DataTable ops, asset saves, etc.), run this check first:
 
@@ -28,8 +28,13 @@ Before writing or executing ANY in-editor automation (Blueprint creation, GE rep
 pgrep -x UnrealEditor > /dev/null && echo "EDITOR UP — MCP live" || echo "EDITOR DOWN — stop, do not write MCP code"
 ```
 
+To confirm the live RC port:
+```bash
+cat ~/Library/Application\ Support/Aura/.Aura/rc_server_port.txt
+```
+
 **Rules:**
-- `EDITOR UP` → proceed with MCP scripts via `127.0.0.1:8000/mcp`
+- `EDITOR UP` → proceed using `mcp__stare-ue5__*` tools (they resolve the port automatically via the Aura port file)
 - `EDITOR DOWN` → STOP. Tell the user the editor is closed and ask them to open it before continuing. Do not write any MCP/in-editor code. Do not ask the user to run scripts.
 - Never assume the editor is running. Always check.
 - If the check itself fails (command not found, no output), treat as `EDITOR DOWN`.
@@ -98,6 +103,9 @@ Key routing rules:
 - ZBrush base mesh from body model, exporting body OBJ for ZBrush, SOMA Blender add-on, SOMA Maya plugin → invoke /soma-x
 - Setup/status for STARE UE5 MCP server, register mcp__stare-ue5__* tools, verify RC connection → invoke /stare-ue5-mcp
 - UE5 RC direct tool calls (search_assets, set_property, call_function, run_python_in_editor, search_source_code) — these are available as mcp__stare-ue5__* tools once the server is running
+- Capture intent before starting a feature/fix/project, "what are we building", write intent.md, start a new feature → invoke /intention
+- Check what SDLC stage you're in, "what should I do next", pipeline status, "am I ready to ship", full pipeline overview → invoke /ai-sdlc
+- Starting any non-trivial project from scratch (needs design + plan + build path) → invoke /intention first, then /ai-sdlc
 
 ## Session Logging (Obsidian Memory Vault)
 

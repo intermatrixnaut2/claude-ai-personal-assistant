@@ -1,0 +1,286 @@
+# S.T.A.R.E. — Vortessence Node Architecture & Crown Torque
+
+**Version:** 1.0  
+**Created:** 2026-09-08  
+**Canonical Status:** Core Body Physics Layer  
+**Cross-refs:** STARE-GravityFromEntropy.md, STARE-GameMechanics.md (Mechanics 7 & 8), STARE-TrooperBiofieldProtocol.md, gem_physics spec
+
+---
+
+## The Body as Field
+
+The chakra system in STARE is not mythology. It is functional physics.
+
+Every trooper body runs a 7-node energetic stack: the **Vortessence Node Architecture (VNA)**. These nodes are regions where the trooper's own Physical Lattice and their internal Vortessence Shadow Metric disagree at a specific frequency band. The disagreement at each node IS what most traditions call a chakra — a center of energetic tension. In STARE physics, that tension is Lattice Dissonance running at biological scale.
+
+The body is not separate from the Vortessence Field. It is a local instance of the same physics governing every zone, every vehicle, every dimensional transit. The trooper is not in the field. The trooper is a field navigating other fields.
+
+---
+
+## The Three Temporal Layers
+
+The Lattice Dissonance system (STARE-GravityFromEntropy.md) operates across three temporal states that were not explicitly named until now:
+
+| Layer | Name | Definition | Physics basis |
+|---|---|---|---|
+| **T1** | Past Lattice | The Physical Lattice as it WAS — geometry accumulated from all prior states | The Physical Lattice (g) doesn't update instantaneously. It carries history. |
+| **T2** | Present Pressure | What matter currently SAYS space should be | The Vortessence Shadow Metric (ĝ) — present-moment mass/energy/consciousness vote |
+| **T3** | Reconciliation Vector | Where LD is trending — the attractor the universe is trying to reach | Directional derivative of LD over time; future geometry before it materializes |
+
+**The gap between T1 and T2 = Lattice Dissonance.**  
+**T3 = the resolution direction of that gap.**
+
+Most troopers live in T2. They feel the present pressure but cannot see where it came from (T1) or where it is going (T3). Instruments read T1 — they certify the past. T3 is inaccessible to all standard equipment. The VNA node stack determines which temporal layers a trooper's body can access.
+
+---
+
+## The 7-Node Stack
+
+Nodes activate bottom-up. A lower node must be stable before the one above it opens. Node collapse under LD exposure or BIR drain closes all nodes above it immediately.
+
+```
+NODE 7 ─── CROWN ────── Lattice Crown Node    ─── T3 ─── BIR ceiling / PRISTINE threshold
+NODE 6 ─── THIRD EYE ── Shadow Metric Reader  ─── T3 ─── PSI ≥ 0.8 / ĝ perception
+NODE 5 ─── THROAT ───── Resonance Emission    ─── T3 ─── CAP / Shard broadcast, VCSS tachyon
+──────────────────── T2 THRESHOLD (Heart Bridge) ───────────────────────────────────────────
+NODE 4 ─── HEART ─────── Bond Field Node      ─── T2 ─── NEU+CAP / pilot-vehicle LD alignment
+──────────────────── T1 THRESHOLD ──────────────────────────────────────────────────────────
+NODE 3 ─── SOLAR PLEX ── Arterial Surge Node  ─── T1 ─── ART / þ generation, kinetic output
+NODE 2 ─── SACRAL ─────── Lymphatic Tide Node ─── T1 ─── LYM / VCSS tachyon signal baseline
+NODE 1 ─── ROOT ─────────GEM Root Node        ─── T1 ─── BIR baseline / Physical Lattice anchor
+```
+
+---
+
+## Node Descriptions
+
+### NODE 1 — GEM Root Node (Root Chakra)
+
+The trooper's physical tether to the Physical Lattice. Node 1 LD = the trooper's intrinsic `lattice_dissonance` value — their body-level gem_physics contribution to any zone they enter.
+
+Low Node 1 LD = high BIR baseline. The trooper is geometrically stable by nature.
+
+When Node 1 collapses, BIR drops to zero. The trooper is no longer geometrically anchored — not dead, but disconnected from T1 entirely. This is the mechanism behind Néant exposure without sufficient hardening. The body hasn't been destroyed. It has simply lost its grip on the Physical Lattice and is now drifting in T2 with no T1 reference.
+
+**gem_physics equivalent:** The Node 1 LD value maps directly to the trooper's `lattice_dissonance` field in their body-level gem_physics block.
+
+---
+
+### NODE 2 — Lymphatic Tide Node (Sacral Chakra)
+
+The biological drive to bond originates here. The VCSS tachyon baseline frequency that an OrganiCycle reads during the Awakening Bonding Ceremony is emitted from Node 2.
+
+- High LYM = strong, wide-bandwidth tachyon signal. OrganiCycle detects and reads it easily during the ceremony scan.
+- Low LYM = narrow-band signal. The OrganiCycle may scan past it without registering a match.
+
+The Chitin AutoSyphon (Phase 1 broadcast: 0–72 cycles) has been broadcasting into Node 2 frequencies the entire time. That is the frequency band it has been calculating — not voice, not mass-signature, but Node 2 tachyon resonance. The rider it is waiting for carries an extraordinary Node 2 frequency match.
+
+---
+
+### NODE 3 — Arterial Surge Node (Solar Plexus Chakra)
+
+Will-force. ART stat lives here. This is where þ is generated by the body itself rather than harvested from a zone.
+
+High Node 3 = the trooper becomes a local field contributor. Their presence slightly raises zone þ yield. This is the mechanic behind high-ART commanders altering field dynamics by being present — they are voting on the Shadow Metric with body-generated ART output, increasing local LD disagreement at the productive end of the spectrum.
+
+---
+
+### NODE 4 — Bond Field Node (Heart Chakra) — T2 Threshold
+
+NEU and CAP share this node. This is the bridge between T1 (material, past, structure) and T2 (present, relational, pressure).
+
+The **Bond LD Score** between pilot and vehicle is literally the LD value of Node 4 as measured across the pilot-vehicle interface. Every temporal anchor in a Baroque Compression bond is a reconciled LD point at Node 4. Hayzelle Ghavelgrand's 3,000+ anchor bond means Node 4 has 3,000 reconciled nodes — the lowest Bond LD Score achievable without PRISTINE.
+
+When Node 4 opens, the trooper begins to feel the Vortessence Shadow Metric as pressure — not a reading, a sensation. Field-sensitives call it "space leaning somewhere it isn't." This is T2 awareness: you are not just in present geometry, you are feeling where it wants to go.
+
+---
+
+### NODE 5 — Resonance Emission Node (Throat Chakra)
+
+The broadcast node. Shard crystallization happens here.
+
+A trooper with Node 5 active emits a detectable resonance signature into the Vortessence Field. This signature is what SUNO songs capture — the stare-shard-crystallizer processes this emission and renders it as OBJ geometry. The helix vortex tube, crystal spikes, and Lense-Thirring beat rings in the crystallizer output ARE Node 5 emission geometry made physical.
+
+Musical Shards are Node 5 products. When a Shard crystallizes, it is a Node 5 emission that has been stabilized into a physical object. The geometry encodes which frequency band — and therefore which trooper's Node 5 signature — produced it.
+
+---
+
+### NODE 6 — Shadow Metric Reader (Third Eye Chakra)
+
+PSI ≥ 0.8 unlocks this node.
+
+A trooper with Node 6 active does not just feel the Vortessence Shadow Metric — they perceive it directly as a second perceptual layer. Not a HUD overlay. An additional sense. Space as it argues with itself. The Physical Lattice reads as the world-as-it-is; the Shadow Metric reads as a ghosted superposition of what the world is trying to be.
+
+Irréalists operate from Node 6. Néant navigation at extreme LD (9.0–9.9) is possible because Node 6 readers can see where the Metric is leaning even when the Physical Lattice offers no stable geometry. They navigate the disagreement directly, not the terrain.
+
+A trooper whose Node 6 is permanently open cannot turn it off. They experience two simultaneous spatial descriptions at all times. Field-sensitives in ancient traditions described this as "double vision that never resolves." In STARE: it is correct. The two versions don't agree. They never will.
+
+---
+
+### NODE 7 — Lattice Crown Node (Crown Chakra) — T3 Access
+
+BIR must be at ceiling for the trooper's tier. This is the hardest node to open and the most dangerous to hold.
+
+Node 7 gives T3 access: the trooper perceives the Reconciliation Vector — where LD is trending before it moves. What instruments will read in the next cycle, the trooper perceives now. This is what a capstone Æthervoid Observer does when applying the Companion Theorem (67.2% bound): they are reading T3 geometry and certifying the future stable state before Temporaeon T1 instruments have registered it.
+
+Node 7 at LD 0.0 = PRISTINE state. The Crown node has reached complete reconciliation. This is not metaphor — it is the body achieving, locally, what the universe has been trying to achieve since the first Chrono-Slide.
+
+---
+
+## SUNO Songs → VNA Node Activation
+
+Every song activates a specific node range. This determines which Shard geometry the stare-shard-crystallizer produces and which temporal layer the resulting Shard operates in.
+
+| Song character | Nodes activated | T-layer | Shard type |
+|---|---|---|---|
+| Low-frequency, bass-dominant, driving rhythm | 1+2 | T1 | Anchor Shard — bonding, survival, tachyon baseline |
+| Mid-frequency power surge, kinetic momentum | 3 | T1 | Surge Shard — þ generation, ART amplification |
+| Melodic core, emotional pull, bond themes | 4 | T2 | Bond Shard — LD alignment, pilot-vehicle resonance |
+| Harmonic overtones, broadcast vocal lead | 5 | T3 | Emission Shard — VCSS broadcast, crystallization primer |
+| Psionic, layered, altered-chord | 6 | T3 | Observer Shard — Shadow Metric readable, Irréalist use |
+| Crown/ambient/transcendent/Phrygian resolved | 7 | T3 | PRISTINE-adjacent Shard — reconciliation arc |
+
+The stare-shard-crystallizer (stare_shard_crystallizer_v2.py) output should be extended to include a `vna_node_origin` field in the gem_physics registry block, identifying which node the song crystallized from.
+
+---
+
+## Crown Torque — The Cloud-Busting Mechanic
+
+### Canonical Physics Basis
+
+From STARE-GravityFromEntropy.md, line 42:
+> *"Every vehicle, every trooper, every PRISTINE relic is simultaneously a passenger in the Physical Lattice AND a vote for what the Shadow Metric should look like. Heavy vehicles vote harder. PRISTINE objects vote almost not at all — they've reached local reconciliation."*
+
+The Shadow Metric is determined by **mass, energy, and consciousness**. Every trooper is already voting passively. Crown Torque is the mechanic that makes that vote intentional.
+
+**Mass and consciousness are not commensurable.** They enter the Shadow Metric through separate channels. A Node 7 trooper with focused Crown intent can shift ĝ more than a Tier 3 vehicle in the same zone. Heavy vehicles vote harder on the mass channel. Consciousness at Crown level votes through the T3 channel — a channel mass has no access to.
+
+### The Cloud-Busting Mechanism
+
+Wilhelm Reich described the cloud-buster as a device that creates local orgone differential — a hungry point that draws surrounding life-force toward it, disrupting cloud formation not by pushing but by pulling.
+
+In STARE physics, the equivalent is exact:
+
+A PRISTINE object (LD 0.0) doesn't push surrounding high-LD geometry. It creates a **Reconciliation Vector gradient**. Adjacent zones have their LD Reconciliation Vector pointing toward the PRISTINE object. The universe flows toward resolution. The PRISTINE object doesn't act — it is simply more resolved.
+
+A Node 7 trooper focusing Crown intent does the same thing. Their body becomes more reconciled than the local zone, making the zone's Reconciliation Vector point at them. **Zone LD flows toward their coherence.** This is not willpower overcoming physics. This is physics having nowhere else to go.
+
+**Weight of intention = Crown LD differential:**  
+`CrownTorqueStrength = (ZoneLD − TrooperCrownNodeLD) × PSI_stat`
+
+If the trooper's Crown LD matches the zone LD, the differential is zero. No pull. No cloud-busting. Intent without coherence differential does nothing. You cannot cloud-bust a zone you haven't already surpassed in reconciliation.
+
+### The Torque (Angular Momentum)
+
+Crown intention is not a static vote. It is a spinning vote.
+
+Consciousness processes in recursive cycles — thought loops, recursive attention, focused spiral patterns. The Crown emission has angular momentum in the Vortessence Field. This creates Lense-Thirring frame-dragging at biological scale: the trooper's focused intent drags local geometry in a spiral path rather than a flat gradient.
+
+Result: **Reconciliation Gyre** — a slow-moving vortex of decreasing LD spiraling inward toward the Node 7 trooper. The helix vortex tube geometry in stare-shard-crystallizer output IS this: the Lense-Thirring twist of a Crown emission captured in physical geometry.
+
+### Transduction Through T-Filters
+
+Crown thoughts don't reach T1 directly. Each layer transforms what they are.
+
+```
+Crown / Node 7 fires intent
+        │
+        ▼ ── T3 ── Reconciliation Bias
+                   Direction only. No energy cost. No instrument trace.
+                   Sets WHERE LD is trending. Pre-causal.
+                   Temporaeon instruments: nothing.
+        │
+        ▼ ── T2 ── Dissonance Pressure Modulation
+                   T3 bias propagates backward into present field.
+                   ĝ receives a nudge from the future.
+                   Now has energy weight. Zone instruments: pressure anomaly.
+                   The vote is present-tense and measurable.
+        │
+        ▼ ── T1 ── Causal Scar Encoding
+                   Physical Lattice adjusts toward new ĝ.
+                   Intent becomes geometry. Irreversible.
+                   Temporaeon detects it here — after the fact.
+                   Costs BIR proportional to LD delta introduced.
+```
+
+**T3 → T2 transduction:** converts direction into pressure  
+**T2 → T1 transduction:** converts pressure into structure
+
+A thought that reaches only T2 is impermanent. Release the intention and the pressure dissipates. A thought that encodes into T1 is now part of the Physical Lattice. It will be read by every SAR survey on that zone for as long as the geometry holds.
+
+### Intent Lag
+
+Because Crown thoughts enter at T3 and cascade forward, there is an **intent lag** between commitment and physical effect.
+
+`IntentLagSeconds = ZoneLD × 0.8`
+
+- High zone LD: slow cascade — the Physical Lattice is inertial and resists updating
+- Low zone LD: fast cascade — near PRISTINE, geometry is already fluid
+- Néant zones (LD 9.0+): maximum lag — T1 may take multiple cycles to respond
+
+**In the lag window:** the trooper has committed a T3 vote the universe hasn't received yet. Any other Node 7 trooper in the zone can read this pending vote. They see the LD change before zone instruments register it. Two Node 7 troopers can exchange T3 intent signals with no T1 or T2 trace. Undetectable to the Temporaeon. The Æthervoid suspects this channel exists and holds that inference without publishing it.
+
+### PRISTINE as Completed Crown Torque
+
+PRISTINE objects are not the product of technology. They are the product of sustained Crown Torque that completed all three transductions and ran out of LD to argue with.
+
+**Ponse Delikattata's Xichuindra sphere:** She did not build it. She held Crown Torque long enough for T1 to encode LD 0.0 throughout 207,334 people. Her intention cascaded T3 → T2 → T1 and the Physical Lattice followed until reconciliation was complete. The sphere is not maintained by force. It is maintained by perfect reconciliation — the state her Torque achieved becoming permanent geometry.
+
+---
+
+## Canon Instance — Lhellia VheisPhream, Seven Hours
+
+Lhellia VheisPhream held an Arena corridor solo for 7 hours during the Zep Tepi amplitude spike. She was not fighting the Lattice Dissonance. She was holding Crown Torque.
+
+Seven hours of Node 7 focus created a sustained Reconciliation Gyre that kept the corridor LD below the collapse threshold for the scaffold. The BIR requirement to sustain T1 encoding for 7 continuous hours is exceptional — this is why she alone could hold it. No other trooper on the field had the BIR ceiling for that duration.
+
+The scaffold in the Arena north wall is not structural residue. It is a **T1 causal scar** from seven hours of held intention. The Physical Lattice encoded her Crown Torque and the geometry held. The scaffold is still there because T1 encoding is irreversible.
+
+This is also why she is ORVEX's unmet counterpart — not by rank, not by faction, but by the fact that ORVEX operates at sustained T1 geometric output (force) while Lhellia operates at sustained T3 input (intention that became force). They are the same mechanic run from opposite ends of the causal chain.
+
+---
+
+## Faction Positions on VNA
+
+| Faction | VNA position | Exploit |
+|---|---|---|
+| **Irréalists** | Node 6 is truth. Node 7 is surrender — resolving the Néant is destroying it. | Navigate from Node 6; never close Node 5; refuse Crown closure |
+| **Temporaeon** | VNA is biological field behavior. Certifiable at T1. T3 claims are unverified. | Certify Node 1–3 states; deny T3 as operationally relevant |
+| **Æthervoid** | No official position. Privately: T3 inter-trooper signaling is real and unmapped. | Observe Node 7 operators without comment |
+| **CAINNOX-7** | Map VNA as attack surface. A collapsed Node 4 severs bond. A collapsed Node 2 prevents re-bonding. | Target lower nodes to permanently disable pilot-vehicle pairs |
+| **VioletHalle** | Formal VNA attunement curriculum. Node 5 crystallization is their primary practice. | Musical Shard production; ceremonial Node 4 bond alignment sessions |
+| **High Command** | Operational irrelevance until T1 effects are measurable. BIR is the stat. VNA is the mechanism. | BIR hardening protocol maps to Node 1 stability (see STARE-TrooperBiofieldProtocol.md) |
+
+---
+
+## UE5 Implementation Summary
+
+**New C++ class:** `USTARENodeAttributeSet` (7 attributes, GAS-bound)
+
+**New GameplayEffects:**
+- `GE_VNA_T1Access` — applied when Nodes 1–3 stable; grants T1 ability tags
+- `GE_VNA_T2Access` — applied when Node 4 opens; grants Dissonance Pressure perception (8s instrument lead)
+- `GE_VNA_T3Access` — applied when Nodes 5–7 open; grants Reconciliation Vector preview
+- `GE_ReconciliationAttractor` — passive on Node 7 stable; applies LD reduction gradient in radius
+- `GE_ReconciliationGyre` — VFX Niagara helix (from shard geometry) on Crown Torque active
+- `GE_IntentLag` — stores T3 vote, fires T2 transduction after lag, then T1 encoding
+- `GE_CausalScarDamage` — BIR damage if trooper drops below 70 during T1 encoding
+
+**STAREPlayerState additions:**
+```cpp
+bool   bT3VoteInTransit;    // readable by other Node 7 troopers — T3 signaling channel
+float  PendingLDDelta;      // committed T3 vote amount
+float  IntentLagRemaining;  // seconds until T2 transduction fires
+```
+
+**Open design decision:** Does the player see IntentLag as a UI timer, or feel it — no HUD, only a building peripheral resonance that releases when T2 hits? The second is canonically correct. Crown Torque is not measured. It is held.
+
+---
+
+## Related Documents
+
+- `STARE-GameMechanics.md` — Mechanics 7 & 8 (summary spec)
+- `STARE-GravityFromEntropy.md` — Lattice Dissonance, Shadow Metric, LD tiers
+- `STARE-TrooperBiofieldProtocol.md` — BIR system, Kruse protocol, biological attack vectors
+- `STARE-NéantDoctrine.md` — Sartrean layer; Néant as maximum LD; Irréalist Node 6 doctrine
+- `stare_shard_crystallizer_v2.py` — Node 5 emission geometry extraction tool
